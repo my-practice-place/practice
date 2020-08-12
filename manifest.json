@@ -1,0 +1,23 @@
+ "name": "Confirm Address and Address Cleaner",
+  "description": "sobriety fork",
+  "version": "1",
+  "applications": {
+    "gecko": {
+      "id": "sobriety@sample.extensions.thunderbird.net",
+      "strict_min_version": "74.0b2"
+    }
+  },
+  "permissions": [
+    "compose"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "compose_action": {
+    "default_popup": "popup.html",
+    "default_title": "check"
+  },
+  "manifest_version": 2
+}
