@@ -1,4 +1,4 @@
--let promiseMap = new Map();
+let promiseMap = new Map();
 var checkResult = [];
 var pattern = "@.*gmail\.(com|co\.jp)"
 browser.composeAction.disable();
